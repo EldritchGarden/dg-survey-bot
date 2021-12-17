@@ -1,0 +1,13 @@
+// radio buttons
+let buttons = await page.$$eval("#surveyQuestions > table > tbody input")
+
+// check boxes
+let buttons = await page.$$eval("#surveyQuestions > fieldset > div > div input")
+
+// past visits
+let buttons = await page.$$eval("#FNSR000067 > div > div input")
+
+// enter sweepstakes
+let buttons = await page.$$eval("#FNSR000043 > div > div input")
+
+#finishIncentive
